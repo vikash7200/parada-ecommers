@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Tangerine:wght@400;700&display=swap');
+
+/* Smooth scroll behavior */
+:root {
+  scroll-behavior: smooth;
+}
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: "Readex Pro", sans-serif;
+  color: var(--color-default);
+  margin: 0;
+  background: #fff;
+  color: #333;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a65508;
+  text-decoration: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #999 !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1340px;
+}
+
+.h4 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.header {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+form.d-flex.mx-auto.mb-2.mb-lg-0 {
+  width: 410px;
+}
+
+input.form-control.border-end-0 {
+  background: #F0F0F0;
+}
+
+span.input-group-text.border-start-0 {
+  background: transparent;
+}
+
+.invite-banner {
+  background-color: #f8f9fa;
+  padding: 8px 16px;
+  font-size: 14px;
+  position: relative;
+  text-align: center;
+}
+
+.invite-banner a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.invite-banner .btn-close {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+}
+
+@media screen and (max-width: 1150px) {
+  form.d-flex.mx-auto.mb-2.mb-lg-0 {
+    width: 250px;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  .invite-banner {
+    display: none;
+  }
+}
+
+
+/* ==== Banner CSS ==== */
+.banner {
+  display: flex;
+  flex-direction: row;
+}
+
+.banner-leftimg {
+  height: 600px;
+  background-size: cover;
+}
+
+.banner-left {
+  width: 1028px;
+  height: 600px;
+}
+
+.banner-right {
+  background-image: url(../Images/slider-bg.jpg);
+}
+
+.banner-right {
+
+  width: 892px;
+  height: 600px;
+  background-color: #f7f3ef;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-size: cover;
+}
+
+.banner-right h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.banner-right h3 {
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.banner-right p {
+  font-size: 24px;
+  margin: 15px 0;
+}
+
+.banner-right .btn {
+  background: #DB4444;
+  color: white;
+  padding: 10px 20px;
+}
+
+@media(max-width: 992px) {
+  .banner {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .banner-left,
+  .banner-right {
+    width: 100% !important;
+    height: 400px;
+  }
+
+  .banner-right {
+    text-align: center;
+    padding: 30px;
+  }
+}
+
+/* ==== Flash Sales Section CSS ==== */
+.Trending-now {
+  padding: 24px;
+  font-family: Libre Baskerville;
+}
+
+.theemheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.theemheader-title {
+  font-family: Libre Baskerville;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 100%;
+  letter-spacing: 0%;
+
+}
+
+.pre-nextbutton button {
+  background-color: #DB4444;
+  color: white;
+  border: none;
+  padding: 5px 12px;
+  margin: 0 5px;
+  border-radius: 4px;
+}
+
+
+.category-card img {
+  height: 350px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.category-card {
+  box-shadow: 5px 10px 10px #A5A5A512;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.category-caption {
+  padding: 10px;
+}
+
+.text1 {
+  text-decoration: line-through;
+  color: #848484;
+}
+
+.text2 {
+  color: #0A8200;
+}
+
+.owl-carousel .card1 {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 10px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-body1 {
+  padding: 15px 10px;
+}
+
+
+.banner3-text1 {
+  margin-bottom: 5px;
+  font-family: Libre Baskerville;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-top: 13px;
+  color: #272727;
+
+}
+
+.banner3-text2 {
+  margin-bottom: 5px;
+  font-family: Libre Baskerville;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-top: 14px;
+  color: #272727;
+
+}
+
+.levis {
+  width: 151px;
+  height: 62px;
+  display: block;
+  margin: 5px auto 10px auto;
+  transform: scale(1);
+  transform-origin: center;
+}
+
+.slider-container {
+  overflow: hidden;
+  padding-right: 80px;
+}
+/* 
+.owl-carousel .owl-item {
+  padding-right: 20px;
+} ye galat hai ok */
+.product-slider2 .owl-item .card1 {
+  /* height: 80px; */
+  transition: all .5s;
+  transform: scale(1, .8);
+}
+.product-slider2 .owl-item.active.center .card1 {
+  /* height: auto; */
+  transform: scale(1, 1);
+}
