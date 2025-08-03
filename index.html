@@ -7,11 +7,13 @@
   <title>Document</title>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/all.min.css">
   <link rel="stylesheet" href="./css/owl.carousel.min.css">
   <link rel="stylesheet" href="./css/all.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" />
+  <link rel="stylesheet" href="./css/splide.min.css" />
 
 
 
@@ -28,10 +30,10 @@
         <a class="navbar-brand ms-2" href="#">
           <img src="./images/logo.jpg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+          aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-bars"></i>
+  </button>
 
         <div class="collapse navbar-collapse" id="navbarContent">
 
@@ -47,8 +49,8 @@
           <form class="d-flex mx-auto mb-2 mb-lg-0 ">
             <div class="input-group">
               <input type="search" class="form-control border-end-0" placeholder="Search here....." aria-label="Search">
-              <span class="input-group-text border-start-0">
-                <img src="./images/cil_search.jpg" alt="" srcset="">
+              <span class="input-group">
+                <img class="search-icon" src="./images/search-icon.png" alt="" srcset="">
               </span>
             </div>
           </form>
@@ -64,11 +66,11 @@
     </nav>
 
 
-   <div class="invite-banner fs-5">
-    Invite Friends and get 50% off on your next purchase
-    <a href="#" class="ms-2 fs-5">Invite Now</a>
-    <button type="button" class="btn-close" aria-label="Close"></button>
-  </div>
+    <div class="invite-banner fs-5">
+      Invite Friends and get 50% off on your next purchase
+      <a href="#" class="ms-2 fs-5">Invite Now</a>
+      <button type="button" class="btn-close" aria-label="Close"></button>
+    </div>
   </header>
   <!-- ==== Banner Section ==== -->
   <section class="banner-section">
@@ -101,7 +103,7 @@
   <!-- ==== Trending Now Section ==== -->
   <section class="Trending-now">
     <div class="theemheader">
-      <h2 class="theemheader-title">Trending Now</h2>
+      <h3 class="theemheader-title">Trending Now</h3>
     </div>
     <div class="owl-carousel flashsale-carousel owl-theme">
       <div class="item">
@@ -179,7 +181,7 @@
 
   <section class="Deals-of-the-Day">
     <div class="container-fluid">
-      <h4 class="theemheader-title">Deals of the Day</h4>
+      <h3 class="theemheader-title">Deals of the Day</h3>
       <div class="owl-carousel owl-theme product-slider">
 
         <!-- Card 1 -->
@@ -306,8 +308,8 @@
     </div>
   </section>
   <!-- ************ Trending offers section ********** -->
-  <section class="trending-offers mt-5 mb-5">
-    <h4 class="theemheader-title">Trending Offers</h4>
+  <section class="trending-offers">
+    <h3 class="theemheader-title">Trending Offers</h3>
     <div class="splide js-carousel-01" aria-label="Trending Offers">
       <div class="splide__track">
         <ul class="splide__list">
@@ -364,7 +366,7 @@
   <!-- ******===== shop by category====******* -->
   <section class="shop by category mt-">
     <div class="container-fluid py-4">
-      <h3 class="theemheader-title mb-3">Shop by Categories</h3>
+      <h3 class="theemheader-title">Shop by Categories</h3>
       <div class="row g-3">
 
         <div class="col-lg-4">
@@ -387,14 +389,14 @@
 
 
           <div class="bottom-row">
-            <div class="shop4-container">
-              <img class="shop-img" src="./images/shop4.jpg" alt="Shop4">
+           <div class="col-6 shop3-container">
+              <img class="shop-img" src="./images/shop4.jpg"alt="Shop3">
             </div>
-            <div class="shop5-container">
-              <img class="shop-img" src="./images/shop5.jpg" alt="Shop5">
+             <div class="col-3 shop3-container">
+              <img class="shop-img" src="./images/shop5.jpg" alt="Shop3">
             </div>
-            <div class="shop6-container">
-              <img class="shop-img" src="./images/shop6.jpg" alt="Shop6">
+             <div class="col-3 shop3-container">
+              <img class="shop-img" src="./images/shop6.jpg" alt="Shop3">
             </div>
           </div>
         </div>
@@ -409,7 +411,7 @@
 
 
   <section class="custom7-wrapper">
-    <h3 class="theemheader-title mb-3">What Our Customer Says</h3>
+    <h3 class="theemheader-title">What Our Customer Says</h3>
     <div class="splide custom7-slider" aria-label="Peek Slider">
       <div class="splide__track">
         <ul class="splide__list">
@@ -451,7 +453,7 @@
 
   <section class="Featured-section p-3">
     <div class="slider-container8">
-      <h3 class="theemheader-title mb-3">Shop by Categories</h3>
+      <h3 class="theemheader-title">Shop by Categories</h3>
 
       <div class="slider-track8" id="sliderTrack8">
 
@@ -544,7 +546,7 @@
 
   <section class="aboutus-section">
     <div class="aboutus-container container-fluid">
-      <h3 class="aboutus-heading1">About Us</h3>
+      <h3 class="theemheader-title">About Us</h3>
       <div class="row align-items-center">
         <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
           <h3 class="aboutus-heading">Business Name</h3>
@@ -666,13 +668,13 @@
   <script src="./js/jquery.min.js"></script>
   <!-- Owl Carousel js -->
   <script src="./js/owl.carousel.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  <script src="./js/splide.min.js"></script>
 
 
   <script>
-     document.querySelector('.btn-close').addEventListener('click', function () {
-    this.closest('.invite-banner').style.display = 'none';
-  });
+    document.querySelector('.btn-close').addEventListener('click', function () {
+      this.closest('.invite-banner').style.display = 'none';
+    });
     $(document).ready(function () {
       // Banner carousel
       $(".banner-carousel").owlCarousel({
@@ -681,7 +683,6 @@
         autoplay: true,
         autoplayTimeout: 4000,
         autoplayHoverPause: true,
-        nav: false,
         dots: true,
       });
 
@@ -690,7 +691,6 @@
       flashCarousel.owlCarousel({
         loop: true,
         margin: 10,
-        nav: false,
         autoplay: true,
         dots: false,
         responsive: {
@@ -700,7 +700,7 @@
         }
       });
 
-      // Custom Prev/Next buttons for flash sale only
+
       $("#prevSlide").click(function () {
         flashCarousel.trigger("prev.owl.carousel");
       });
@@ -716,7 +716,6 @@
       $('.product-slider').owlCarousel({
         loop: true,
         margin: 10,
-        nav: false,
         dots: false,
         autoplay: true,
         autoplayTimeout: 3000,
@@ -739,7 +738,7 @@
       $('.product-slider2').owlCarousel({
         loop: true,
         margin: 20,
-        nav: false,
+
         dots: false,
         autoplay: true,
         autoplayTimeout: 3000,
